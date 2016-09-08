@@ -1,0 +1,32 @@
+name = Drupalway Bootstrap + Omega
+description = Bootstrap + Omega powered basic theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/dw_bo.reset.css
+stylesheets[all][] = css/dw_bo.styles.css
+stylesheets[all][] = css/bootstrap.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/dw_bo.behaviors.js
+scripts[] = js/bootstrap.min.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer
